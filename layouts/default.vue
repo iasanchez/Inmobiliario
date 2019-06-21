@@ -8,6 +8,7 @@
   </div>
 </template>
 
+
 <script>
 import Cabecera from '~/components/cabecera.vue';
 import Fin from '~/components/fin.vue';
@@ -16,6 +17,40 @@ export default {
   components: {
     Cabecera,
     Fin
+  },
+  head () {
+    return {
+      script: [
+        { src: 'assets/js/jquery-min.js' },
+        { src: 'assets/js/popper.min.js' },
+        { src: 'assets/js/bootstrap.min.js' },
+        { src: 'assets/js/jquery.mixitup.js' },
+        { src: 'assets/js/jquery.counterup.min.js' },
+        { src: 'assets/js/ion.rangeSlider.js' },
+        { src: 'assets/js/jquery.parallax.js' },
+        { src: 'assets/js/waypoints.min.js' },
+        { src: 'assets/js/wow.js' },
+        { src: 'assets/js/owl.carousel.min.js' },
+        { src: 'assets/js/jquery.slicknav.js' },
+        { src: 'assets/js/nivo-lightbox.js' },
+        { src: 'assets/js/jquery.slicknav.js' },
+        { src: 'assets/js/main.js' },
+        { src: 'assets/js/form-validator.min.js' },
+        { src: 'assets/js/contact-form-script.min.js' }
+      ],
+      link: [
+        { rel: 'stylesheet', href: 'assets/css/bootstrap.min.css' },
+        { rel: 'stylesheet', href: 'assets/css/slicknav.css' },
+        { rel: 'stylesheet', href: 'assets/css/ion.rangeSlider.css' },
+        { rel: 'stylesheet', href: 'assets/css/ion.rangeSlider.skinFlat.css' },
+        { rel: 'stylesheet', href: 'assets/css/nivo-lightbox.css' },
+        { rel: 'stylesheet', href: 'assets/css/animate.css' },
+        { rel: 'stylesheet', href: 'assets/css/owl.carousel.css' },
+        { rel: 'stylesheet', href: 'assets/css/main.css' },
+        { rel: 'stylesheet', href: 'assets/css/responsive.css' }
+
+      ]
+    }
   }
 }
 </script>
@@ -51,4 +86,7 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+   
+
 </style>
