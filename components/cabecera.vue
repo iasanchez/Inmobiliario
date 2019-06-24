@@ -1,5 +1,6 @@
 <template>
- <!-- Header Area wrapper Starts -->
+
+    <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
       <!-- Start Top Bar -->
       <div class="top-bar">
@@ -16,8 +17,9 @@
             </div>
             <div class="col-lg-5 col-md-3 col-xs-12">
               <div class="header-top-right float-right">
-                <a href="login.html" class="header-top-button">Log In</a>
-                <a href="signup.html" class="header-top-button white-bg">Sign Up</a>
+                  <nuxt-link to="/login"  class="header-top-button" >Ingresar</nuxt-link>
+                  <nuxt-link to="/register"  class="header-top-button" >Registrarme</nuxt-link>
+
               </div>
             </div>
           </div>
@@ -207,6 +209,8 @@
       <!-- Navbar End -->
     </header>
     <!-- Header Area wrapper End -->
+
+
 </template>
 
 <script>

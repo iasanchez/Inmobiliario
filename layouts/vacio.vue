@@ -1,5 +1,13 @@
 <template>
-    <div class="container">
-      <nuxt/>
-    </div>
+    <nuxt />
 </template>
+
+
+<script>
+export default {
+}
+</script>
+
+<style>
+
+</style>

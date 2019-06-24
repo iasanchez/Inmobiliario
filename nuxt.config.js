@@ -31,15 +31,7 @@ module.exports = {
     ],
     link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'stylesheet', href: 'assets/css/bootstrap.min.css' },
-        { rel: 'stylesheet', href: 'assets/css/slicknav.css' },
-        { rel: 'stylesheet', href: 'assets/css/ion.rangeSlider.css' },
-        { rel: 'stylesheet', href: 'assets/css/ion.rangeSlider.skinFlat.css' },
-        { rel: 'stylesheet', href: 'assets/css/nivo-lightbox.css' },
-        { rel: 'stylesheet', href: 'assets/css/animate.css' },
-        { rel: 'stylesheet', href: 'assets/css/owl.carousel.css' },
-        { rel: 'stylesheet', href: 'assets/css/main.css' },
-        { rel: 'stylesheet', href: 'assets/css/responsive.css' }
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css' }
 
       ]
   },
@@ -50,8 +42,16 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+ css: [
+  "~/assets/css/bootstrap.min.css",
+  "~/assets/css/slicknav.css",
+  "~/assets/css/ion.rangeSlider.css",
+  "~/assets/css/ion.rangeSlider.skinFlat.css",
+  "~/assets/css/nivo-lightbox.css",
+  "~/assets/css/animate.css",
+  "~/assets/css/main.css",
+  "~/assets/css/responsive.css"
+],
   /*
   ** Plugins to load before mounting the App
   */
@@ -76,9 +76,9 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
+    extractCSS: {
+      allChunks: true
+    },
     extend(config, ctx) {
     }
   }
