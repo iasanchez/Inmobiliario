@@ -65,17 +65,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p>Copyright © 2018 <a rel="nofollow" href="https://uideck.com">UIdeck</a> All Right Reserved</p>
+            <p>Copyright © 2019  All Right Reserved</p>
           </div>
         </div>
       </div>
     </section> 
 
-    <!-- Go to Top Link -->
-    <a href="#" class="back-to-top">
-      <i class="lni-chevron-up"></i>
-    </a>    
-    </div>
+</div>
     
 </template>
 
