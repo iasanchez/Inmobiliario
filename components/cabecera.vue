@@ -1,6 +1,5 @@
 <template>
-
-    <!-- Header Area wrapper Starts -->
+<div>
     <header id="header-wrap">
 
             <!-- Start Top Bar -->
@@ -50,12 +49,12 @@
                 </div>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="contact.html">
+                <a class="nav-link" href="/noticias">
                  Noticias
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">
+                <a class="nav-link" href="/contacto">
                   Contacto
                 </a>
               </li>
@@ -149,7 +148,7 @@
     </header>
     <!-- Header Area wrapper End -->
 
-
+</div>
 </template>
 
 <script>

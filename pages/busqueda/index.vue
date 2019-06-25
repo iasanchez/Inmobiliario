@@ -1,9 +1,13 @@
 <template>
     <div class="container mt-5">
     <div class="row">
-    <div class="col-md-3" v-for="(item,index) in articulos" :key="index">
+    <div class="col-md-4">
+       <h2>FILTROS
+       </h2>
+    </div>
+    <div class="col-md-4" v-for="(item,index) in articulos" :key="index">
        <h2>
-       <nuxt-link :to="`/busqueda/${item.category}`">{{item.subcategory}} </nuxt-link>
+       <nuxt-link :to="`/busqueda/${item.category}`">{{item.category}} </nuxt-link>
        </h2>
     </div>
     </div>

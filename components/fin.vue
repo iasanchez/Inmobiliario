@@ -1,32 +1,24 @@
 <template>
     <div>
-    <!-- Footer Section Start -->
     <footer id="footer" class="footer-area section-padding">
       <div class="container">
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-              <h3 class="footer-titel">About <span>Us</span></h3>
+              <h3 class="footer-titel">Noostros</h3>
               <ul class="footer-link">
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Graphic Design</a></li>           
-                <li><a href="#">Documentation</a></li>           
+                <li><a href="#">Empresa</a></li>      
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-              <h3 class="footer-titel">Usefull<span> Links</span></h3>
+              <h3 class="footer-titel">Links</h3>
               <ul class="footer-link">
-                <li><a href="#">Bayonne, New York</a></li>
-                <li><a href="#">Greenville, Chicago</a></li>
-                <li><a href="#">The Heights, New Jersey</a></li>
-                <li><a href="#">Bayonne, Washington DC</a></li>
-                <li><a href="#">Greenville, San Francisco</a></li>
+                <li><a href="#">Buenos Aires</a></li>
+
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-              <h3 class="footer-titel">Contact <span>Info</span></h3>
+              <h3 class="footer-titel">Contacto <span>Información</span></h3>
               <ul class="address">
                 <li>
                   <a href="#"><i class="lni-map-marker"></i> York Blvd, Los Angeles, US<br> View, CA 94041USA</a>
@@ -40,7 +32,7 @@
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-              <h3 class="footer-titel">Subscribe <span>on Our News</span></h3>
+              <h3 class="footer-titel">Suscribite <span>a nuestras novedades</span></h3>
               <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
                 <div class="form-group is-empty">
                   <input type="email" value="" name="Email" class="form-control" id="EMAIL" placeholder="Email address" required="">
@@ -59,8 +51,6 @@
         </div>  
       </div>     
     </footer> 
-    <!-- Footer Section End -->
-
     <section id="copyright">
       <div class="container">
         <div class="row">

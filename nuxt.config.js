@@ -12,27 +12,27 @@ module.exports = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [
-        { src: 'assets/js/jquery-min.js' },
-        { src: 'assets/js/popper.min.js' },
-        { src: 'assets/js/bootstrap.min.js' },
-        { src: 'assets/js/jquery.mixitup.js' },
-        { src: 'assets/js/jquery.counterup.min.js' },
-        { src: 'assets/js/ion.rangeSlider.js' },
-        { src: 'assets/js/jquery.parallax.js' },
-        { src: 'assets/js/waypoints.min.js' },
-        { src: 'assets/js/wow.js' },
-        { src: 'assets/js/owl.carousel.min.js' },
-        { src: 'assets/js/jquery.slicknav.js' },
-        { src: 'assets/js/nivo-lightbox.js' },
-        { src: 'assets/js/jquery.slicknav.js' },
-        { src: 'assets/js/main.js' },
-        { src: 'assets/js/form-validator.min.js' },
-        { src: 'assets/js/contact-form-script.min.js' }
+      "~/assets/jquery-min.js",
+      "~/assets/popper.min.js" ,
+      "~/assets/bootstrap.min.js" ,
+      "~/assets/jquery.mixitup.js",
+      "~/assets/jquery.counterup.min.js" ,
+      "~/assets/ion.rangeSlider.js",
+      "~/assets/jquery.parallax.js" ,
+      "~/assets/waypoints.min.js",
+      "~/assets/wow.js",
+      "~/assets/owl.carousel.min.js",
+      "~/assets/jquery.slicknav.js",
+      "~/assets/nivo-lightbox.js",
+       "~/assets/jquery.slicknav.js",
+       "~/assets/main.js",
+       "~/assets/form-validator.min.js",
+      "~/assets/contact-form-script.min.js"
     ],
     link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css' }
-
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css' },
+        { rel: 'stylesheet', href: 'https://cdn.lineicons.com/1.0.1/LineIcons.min.css' }
       ]
   },
   /*
@@ -56,6 +56,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+
   ],
   /*
   ** Nuxt.js modules
@@ -65,7 +66,12 @@ module.exports = {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    
   ],
+  buildDir: '_nuxt',
+  build: {
+    publicPath: '_nuxt/assets/'
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

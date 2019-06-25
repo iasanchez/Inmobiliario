@@ -7,35 +7,34 @@
           <div class="col-lg-5 col-md-6 col-xs-12">
             <div class="page-login-form box">
               <h3>
-                Create Your account
+                Registrate
               </h3>
               <form class="login-form">
                 <div class="form-group">
                   <div class="input-icon">
                     <i class="lni-user"></i>
-                    <input type="text" class="form-control" name="name" placeholder="Username">
+                    <input type="text" class="form-control" name="name" placeholder="Usuario">
                   </div>
                 </div> 
                 <div class="form-group">
                   <div class="input-icon">
                     <i class="lni-envelope"></i>
-                    <input type="text" class="form-control" name="email" placeholder="Email Address">
+                    <input type="text" class="form-control" name="email" placeholder="Correo Electronico">
                   </div>
                 </div> 
                 <div class="form-group">
                   <div class="input-icon">
                     <i class="lni-lock"></i>
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" class="form-control" placeholder="Contraseña">
                   </div>
                 </div>  
                 <div class="form-group">
                   <div class="input-icon">
                     <i class="lni-unlock"></i>
-                    <input type="password" class="form-control" placeholder="Retype Password">
+                    <input type="password" class="form-control" placeholder="Repetir Contraseña">
                   </div>
                 </div>                 
-                <button class="btn btn-common log-btn mt-3">Register</button>
-                <p class="text-center">Already have an account?<a href="login.html"> Sign In</a></p>
+                <button class="btn btn-common log-btn mt-3">Registrate</button>
               </form>
             </div>
           </div>

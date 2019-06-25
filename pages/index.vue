@@ -1,7 +1,5 @@
 <template>
-<!DOCTYPE html>
-<html lang="en">
-  <body>
+<div>
     <!-- Intro Section Start -->
     <section id="intro" class="section-intro">
       <div class="search-container">
@@ -13,19 +11,19 @@
                 <form>
                    <div class="row d-flex align-items-center justify-content-center">    
                         <div class="col-lg-2 col-md-6 col-xs-12">
-                        <button type="button" class="btn btn-secondary"><i class="lni-search" href="/busqueda"></i> Comprar</button>
+                        <button type="button" class="btn btn-secondary"><i href="/busqueda"></i> Comprar</button>
                         </div>         
                         <div class="col-lg-2 col-md-6 col-xs-12">
-                        <button type="button" class="btn btn-secondary"><i class="lni-search" href="/busqueda"></i> Alquilar</button>
+                        <button type="button" class="btn btn-secondary"><i href="/busqueda"></i> Alquilar</button>
                         </div>  
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                        <button type="button" class="btn btn-secondary"><i class="lni-search" href="/busqueda"></i> Emprendimientos</button>
+                        <button type="button" class="btn btn-secondary"><i href="/busqueda"></i> Emprendimientos</button>
                         </div>  
                          <div class="col-lg-2 col-md-6 col-xs-12">
-                        <button type="button" class="btn btn-secondary"><i class="lni-search" href="/busqueda"></i> Comercial</button>
+                        <button type="button" class="btn btn-secondary"><i href="/busqueda"></i> Comercial</button>
                         </div> 
                          <div class="col-lg-2 col-md-6 col-xs-12">
-                        <button type="button" class="btn btn-secondary"><i class="lni-search" href="/busqueda"></i> Temporal</button>
+                        <button type="button" class="btn btn-secondary"><i href="/busqueda"></i> Temporal</button>
                         </div> 
                     </div>
                     <div class="row mt-4">
@@ -33,16 +31,18 @@
                           <div class="search-category-container">
                             <label class="styled-select">
                               <select class="classic">
-                                <option>All Actions</option>
-                                <option>Rentals (12)</option>
-                                <option>Sales (17)</option>
+                                <option>Departamento</option>
+                                <option>Casa</option>
+                                <option>Terreno / Lote</option>
+                                <option>Inmueble comercial</option>
+                                <option>Otros</option>
                               </select>
                             </label>
                           </div>
                         </div>
                           <div class="col-lg-9 col-md-9 col-xs-12">
                             <div class="form-group">
-                              <input class="form-control" type="text" placeholder="Enter Property Name, Keywords or Adress">
+                              <input class="form-control" type="text" placeholder="Buscá por ubicación o palabra clave">
                             </div>
                           </div>                    
                       </div>
@@ -54,7 +54,7 @@
                   </div>
                   <div class="col-lg-3 col-md-12 col-xs-12">
                     <div class="text-right btn-section">
-                      <button type="button" class="btn btn-common"><i class="lni-search" href="/busqueda"></i> Buscar</button>
+                      <nuxt-link to="/busqueda" class="btn btn-common"><i class="lni-search" ></i> Buscar</nuxt-link>
                     </div>
                   </div>
                 </div>
@@ -249,9 +249,7 @@
     	<i class="lni-chevron-up"></i>
     </a>
 
-    
-  </body>
-</html>
+</div>
 
 </template>
 
