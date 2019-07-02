@@ -1,0 +1,43 @@
+{
+  "links": {
+    "login": "Iniciar Sesion",
+    "register": "Registrarme",
+    "contactInformation": "Información de Contacto",
+    "about": "Nosotros",
+    "english": "Version English",
+    "espaniol": "Versión Español",
+    "subscribe": "Suscribite a Nuestras Novedades",
+    "news": "Noticias",
+    "contact": "Contacto",
+    "public": "Publicar Inmueble",
+    "user": "Usuario",
+    "password": "Contraseña",
+    "sessionClose": "Recordarme",
+    "forgotPassword": "Olvidaste tu Contraseña?",
+    "signIn": "Iniciar",
+    "register": "Register"
+  },
+  "home": {
+    "introduction": "Encontra tu HOGAR",
+    "searchPopular": "Busquedas populares",
+    "search": "Buscar",
+    "browseALL": "Buscar Todas",
+    "buy": "Comprar",
+    "rent": "Alquilar",
+    "entrepreneurship": "Emprendimiento",
+    "commercial": "Comercial",
+    "temporary": "Temporal",
+    "department": "Departamento",
+    "house": "Casa",
+    "other": "Otros"
+  },
+  "login": {
+    "title": "Login"
+  },
+  "register": {
+    "title": "Register"
+  },
+  "error": {
+    "title": "Error no se pudo encontrar la pagina"
+  }
+}

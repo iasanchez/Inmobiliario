@@ -1,21 +1,20 @@
 <template>
-  <div>
-    <cabecera />
-    <nuxt />
-    <fin />
-  </div>
+	<div>
+		<headerAPP/>
+		<nuxt/>
+		<footerAPP/>
+	</div>
 </template>
 
 
 <script>
-import Cabecera from '~/components/cabecera.vue';
-import Fin from '~/components/fin.vue';
+import HeaderAPP from "~/components/_header.vue";
+import FooterAPP from "~/components/_footer.vue";
 
 export default {
-  components: {
-    Cabecera,
-    Fin
-  }
- 
-}
+	components: {
+		HeaderAPP,
+		FooterAPP
+	}
+};
 </script>

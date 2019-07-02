@@ -2,14 +2,20 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _1f23b0f1 = () => interopDefault(import('..\\pages\\busqueda\\index.vue' /* webpackChunkName: "pages_busqueda_index" */))
-const _2ad999c2 = () => interopDefault(import('..\\pages\\contacto.vue' /* webpackChunkName: "pages_contacto" */))
+const _921a6e06 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages_contact" */))
 const _193e9506 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages_login" */))
-const _7190c3fe = () => interopDefault(import('..\\pages\\noticias.vue' /* webpackChunkName: "pages_noticias" */))
+const _ee837074 = () => interopDefault(import('..\\pages\\news.vue' /* webpackChunkName: "pages_news" */))
 const _78111e16 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages_register" */))
-const _28c41d7c = () => interopDefault(import('..\\pages\\busqueda\\_category.vue' /* webpackChunkName: "pages_busqueda__category" */))
-const _2d5e0bfb = () => interopDefault(import('..\\pages\\busqueda\\_category\\_subcategory.vue' /* webpackChunkName: "pages_busqueda__category__subcategory" */))
+const _bda0f720 = () => interopDefault(import('..\\pages\\search\\property.vue' /* webpackChunkName: "pages_search_property" */))
+const _7b618aef = () => interopDefault(import('..\\pages\\search\\_id.vue' /* webpackChunkName: "pages_search__id" */))
 const _4f96f1ef = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _6980ea50 = () => interopDefault(import('..\\pages\\_lang\\index.vue' /* webpackChunkName: "pages__lang_index" */))
+const _2a4e68b4 = () => interopDefault(import('..\\pages\\_lang\\contact.vue' /* webpackChunkName: "pages__lang_contact" */))
+const _d631a422 = () => interopDefault(import('..\\pages\\_lang\\login.vue' /* webpackChunkName: "pages__lang_login" */))
+const _089a6dbd = () => interopDefault(import('..\\pages\\_lang\\news.vue' /* webpackChunkName: "pages__lang_news" */))
+const _7e291ee6 = () => interopDefault(import('..\\pages\\_lang\\register.vue' /* webpackChunkName: "pages__lang_register" */))
+const _47676fe7 = () => interopDefault(import('..\\pages\\_lang\\search\\property.vue' /* webpackChunkName: "pages__lang_search_property" */))
+const _71c41118 = () => interopDefault(import('..\\pages\\_lang\\search\\_id.vue' /* webpackChunkName: "pages__lang_search__id" */))
 
 Vue.use(Router)
 
@@ -86,38 +92,61 @@ export function createRouter() {
     scrollBehavior,
 
     routes: [{
-      path: "/busqueda",
-      component: _1f23b0f1,
-      name: "busqueda"
-    }, {
-      path: "/contacto",
-      component: _2ad999c2,
-      name: "contacto"
+      path: "/contact",
+      component: _921a6e06,
+      name: "contact"
     }, {
       path: "/login",
       component: _193e9506,
       name: "login"
     }, {
-      path: "/noticias",
-      component: _7190c3fe,
-      name: "noticias"
+      path: "/news",
+      component: _ee837074,
+      name: "news"
     }, {
       path: "/register",
       component: _78111e16,
       name: "register"
     }, {
-      path: "/busqueda/:category",
-      component: _28c41d7c,
-      name: "busqueda-category",
-      children: [{
-        path: ":subcategory?",
-        component: _2d5e0bfb,
-        name: "busqueda-category-subcategory"
-      }]
+      path: "/search/property",
+      component: _bda0f720,
+      name: "search-property"
+    }, {
+      path: "/search/:id?",
+      component: _7b618aef,
+      name: "search-id"
     }, {
       path: "/",
       component: _4f96f1ef,
       name: "index"
+    }, {
+      path: "/:lang",
+      component: _6980ea50,
+      name: "lang"
+    }, {
+      path: "/:lang/contact",
+      component: _2a4e68b4,
+      name: "lang-contact"
+    }, {
+      path: "/:lang/login",
+      component: _d631a422,
+      name: "lang-login"
+    }, {
+      path: "/:lang/news",
+      component: _089a6dbd,
+      name: "lang-news"
+    }, {
+      path: "/:lang/register",
+      component: _7e291ee6,
+      name: "lang-register"
+    }, {
+      path: "/:lang/search/property",
+      component: _47676fe7,
+      name: "lang-search-property"
+    }, {
+      path: "/:lang/search/:id?",
+      component: _71c41118,
+      name: "lang-search-id"
     }],
 
     fallback: false

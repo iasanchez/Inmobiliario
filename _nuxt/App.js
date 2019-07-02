@@ -21,10 +21,10 @@ import '..\\assets\\css\\main.css'
 
 import '..\\assets\\css\\responsive.css'
 
+import _77263413 from '..\\layouts\\clean.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
-import _782cec08 from '..\\layouts\\vacio.vue'
 
-const layouts = { "_default": _6f6c098b,"_vacio": _782cec08 }
+const layouts = { "_clean": _77263413,"_default": _6f6c098b }
 
 export default {
   head: {"title":"inmobiliario","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"inmobiliario"}],"script":["~\u002Fassets\u002Fjquery-min.js","~\u002Fassets\u002Fpopper.min.js","~\u002Fassets\u002Fbootstrap.min.js","~\u002Fassets\u002Fjquery.mixitup.js","~\u002Fassets\u002Fjquery.counterup.min.js","~\u002Fassets\u002Fion.rangeSlider.js","~\u002Fassets\u002Fjquery.parallax.js","~\u002Fassets\u002Fwaypoints.min.js","~\u002Fassets\u002Fwow.js","~\u002Fassets\u002Fowl.carousel.min.js","~\u002Fassets\u002Fjquery.slicknav.js","~\u002Fassets\u002Fnivo-lightbox.js","~\u002Fassets\u002Fjquery.slicknav.js","~\u002Fassets\u002Fmain.js","~\u002Fassets\u002Fform-validator.min.js","~\u002Fassets\u002Fcontact-form-script.min.js"],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002FOwlCarousel2\u002F2.3.4\u002Fassets\u002Fowl.carousel.css"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdn.lineicons.com\u002F1.0.1\u002FLineIcons.min.css"}],"style":[]},

@@ -1,0 +1,42 @@
+{
+  "links": {
+    "login": "Login",
+    "register": "Register",
+    "contactInformation": "Contact Information",
+    "about": "About us",
+    "english": "Version English",
+    "espaniol": "Versión Español",
+    "subscribe": "Subscribe to our news",
+    "news": "News",
+    "contact": "Contact",
+    "public": "Publish Property",
+    "user": "User",
+    "password": "Password",
+    "sessionClose": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "signIn": "Sign In"
+  },
+  "home": {
+    "introduction": "Find your HOME",
+    "searchPopular": "Popular searches",
+    "search": "Search",
+    "browseALL": "Browse All",
+    "buy": "Buy",
+    "rent": "Rent",
+    "entrepreneurship": "Entrepreneurship",
+    "commercial": "Commercial",
+    "temporary": "Temporary",
+    "department": "Department",
+    "house": "House",
+    "other": "Other"
+  },
+  "login": {
+    "title": "Login"
+  },
+  "register": {
+    "title": "Register"
+  },
+  "error": {
+    "title": "Error page could not be found"
+  }
+}
